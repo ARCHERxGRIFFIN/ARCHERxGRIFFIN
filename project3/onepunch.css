@@ -1,0 +1,15 @@
+body{
+text-align: center;
+border: solid teal 7px;
+padding:5px;
+background: url(https://wallpapercave.com/wp/xX2GRj6.gif);
+color: white;
+}
+img{
+	height: 750px;
+}
+#punch{
+	position: absolute;
+	top: 1500px;
+	left: 180px;
+}
