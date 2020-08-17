@@ -1,0 +1,40 @@
+body{
+background-image: url(http://wallpapercave.com/wp/cdkivB8.jpg);
+text-align: center;
+color: white;}
+
+.link img{
+height: 300px;
+border: solid white 13px;
+border-radius: 15px;
+margin-top: 100px;
+}
+.blink{
+position: fixed;
+left: 0px;
+top: -100%;
+background-color: rgba(0,0,0,0.7);
+height: 100%;
+width: 100%;
+}
+.blink img{
+height: 600px;
+position: relative;
+top: 100px;
+border: solid white 10px;
+border-radius: 7px;
+}
+.blink a{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+.blink:target{
+	top: 0;
+}
